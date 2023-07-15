@@ -95,16 +95,19 @@ function timerFunction(wrongAnswer){
     }
 }
 // Highscore Local Storage and Display
-function setHighScores(){
-    var testing = localStorage.setItem(textAreaEl.value, timerCount);
-    textAreaEl.value = " ";
-    JSON.stringify(testing);
-   
-    var highScores = JSON.parse(testing);
-    var finalTestEl = document.querySelector("#append")
+submitEl.addEventListener("click", function(event) {
+    event.preventDefault();
+    var initials = textAreaEl.value.trim();
+    if (initials !== "") {
+        var scores = localStorage.getItem("scores");
+        var scoresObj = scores ? JSON.parse(scores) : {};
+        scoresObj[initials] = timerCount;
+        localStorage.setItem("scores", JSON.stringify(scoresObj));
+        textAreaEl.value = "";
+        alert("Score saved successfully!");
+    }
+});
 
-finalTestEl.append(highScores);
-}
 // Clears Local Storage
 function clearLocalStorage(){
     localStorage.clear();
