@@ -169,4 +169,4 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: assets\images\Mod_4_sc.png
+[product-screenshot]: ./assets/images/Mod_4_sc.png
