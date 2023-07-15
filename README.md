@@ -50,7 +50,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://pault26.github.io/04-Module-JS-Quiz/)
 
 This quiz is a short and simple quiz to test your JavaScript knowledge! The purpose of this exercise is to deepen our understanding of using JavaScript and HTML in tandem as well as storing data. 
 
