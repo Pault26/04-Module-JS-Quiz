@@ -1,0 +1,100 @@
+body {
+    background-color: #e0b1cb;
+    font-size: 24px;
+}
+
+.home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #231942;
+}
+
+p{
+    color: #231942;
+    font-weight: bold;
+}
+
+#startParagraph {
+    max-width: 50%;
+}
+
+button {
+    color: white;
+    background-color: #5E548E;
+    height: 45px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#timer {
+    color: white;
+}
+
+#viewHighScores {
+    color: white;
+    text-decoration: inherit;
+}
+
+#form1,
+#form2,
+#form3,
+#form4,
+#form5 {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+input {
+    margin: 5px;
+    color: white;
+    background-color: #5E548E;
+    height: 45px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: start;
+}
+
+#results {
+    text-align: center;
+    visibility: hidden;
+}
+
+#initials {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    font-size: 24px;
+}
+
+.finalButtons{
+    width: 250px;
+}
+
+#highScores {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#highScores button {
+    width: 190px;
+}
