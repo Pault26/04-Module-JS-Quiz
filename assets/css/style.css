@@ -23,6 +23,12 @@ p{
     max-width: 50%;
 }
 
+.txtBox {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 button {
     color: white;
     background-color: #5E548E;
@@ -40,11 +46,17 @@ header {
 
 #timer {
     color: white;
+    background-color: #5E548E;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 #viewHighScores {
     color: white;
     text-decoration: inherit;
+    background-color: #5E548E;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 #form1,
@@ -72,6 +84,8 @@ input {
 
 #results {
     text-align: center;
+    display: flex;
+    flex-direction: column;
     visibility: hidden;
 }
 

@@ -17,7 +17,7 @@
 
     <div class="home" id="home">
         <h1>Coding Quiz</h1>
-        <p id="startParagraph">
+        <p id="startParagraph" class="txtBox">
             This quiz is timed and consists of 5 questions, click the start button bellow to begin and see how well you can code!
         </p>
         <button id="startQuiz" onclick="next('question1')">Start Quiz</button>
@@ -26,7 +26,7 @@
     <!-- Question 1-->
     <div id="question1">
         <form id="form1">
-            <h1>Which of the following methods is used to select an HTML element by its ID using JavaScript?</h1>
+            <h1 class="txtBox">Which of the following methods is used to select an HTML element by its ID using JavaScript?</h1>
             <input type="button" onclick="next1('question2', true)" name="choice"
                 value="querySelector()">
             <input type="button" onclick="next1('question2', true)" name="choice" value="getElementsByClassName()">
@@ -39,7 +39,7 @@
     <!-- Question 2-->
     <div id="question2">
         <form id="form2">
-            <h1>What is the correct syntax for creating a new array in JavaScript?</h1>
+            <h1 class="txtBox">What is the correct syntax for creating a new array in JavaScript?</h1>
             <input type="button" onclick="next2('question3')" name="choice" value="var array = []">
             <input type="button" onclick="next2('question3', true)" name="choice" value="var array = {}">
             <input type="button" onclick="next2('question3', true)" name="choice"
@@ -51,7 +51,7 @@
     <!-- Question 3-->
     <div id="question3">
         <form id="form3">
-            <h1>How can you add a comment in JavaScript?</h1>
+            <h1 class="txtBox">How can you add a comment in JavaScript?</h1>
             <input type="button" onclick="next3('question4', true)" name="choice" value="!This is a comment">
             <input type="button" onclick="next3('question4', true)" name="choice" value="<!--This is a comment-->">
             <input type="button" onclick="next3('question4', true)" name="choice" value="/This is a comment/">
@@ -61,7 +61,7 @@
     <!-- Question 4-->
     <div id="question4">
         <form id="form4">
-            <h1>Which of the following methods is used to add a new class to an HTML element using JavaScript?</h1>
+            <h1 class="txtBox">Which of the following methods is used to add a new class to an HTML element using JavaScript?</h1>
             <input type="button" onclick="next4('question5')" name="choice"
                 value="className()">
             <input type="button" onclick="next4('question5', true)" name="choice"
@@ -75,7 +75,7 @@
     <!-- Question 5-->
     <div id="question5">
         <form id="form5">
-            <h1>What is the correct way to write a conditional statement in JavaScript?</h1>
+            <h1 class="txtBox">What is the correct way to write a conditional statement in JavaScript?</h1>
             <input type="button" onclick="next5('results', true)" name="choice"
                 value=" if x = 5 { ... }">
             <input type="button" onclick="next5('results')" name="choice" value=" if (x === 5) { ... }">
