@@ -155,8 +155,10 @@ Project Link: [https://github.com/Pault26/04-Module-JS-Quiz](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Many thanks to the following for helping make this project a success!
 
+* [Great Stack Quiz Tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8)
+* [Web Dev Simplified Quiz Tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=289s)
 * [Choose an Open Source License](https://choosealicense.com)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
